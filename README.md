@@ -1,4 +1,21 @@
 ---
-# Snake's Lair
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
-This is code for my website, where I could change fix and apply some themes, because default dark theme is not good
+
+# 👾 About Me
+
+I am `carnifex17`, cybersecurity student, ethical hacker. I am active on platforms like **HackTheBox** and **TryHackMe** and member of [**purplestorm**](https://discord.gg/fg26dRMB) team
+
+***
+
+<figure><img src=".gitbook/assets/giphy1.gif" alt="" width="384"><figcaption></figcaption></figure>
