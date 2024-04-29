@@ -4,6 +4,7 @@
 
 * [👾 About Me](README.md)
 * [👀 Useful Links](welcome-traveler/useful-links.md)
+* [📜 Certificates](welcome-traveler/certificates.md)
 
 ## 💻 PENTESTING
 
