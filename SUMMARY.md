@@ -9,8 +9,8 @@
 ## 💻 PENTESTING
 
 * [Recon](pentesting/recon/README.md)
+  * [DNS](pentesting/recon/dns.md)
   * [Fuzzing](pentesting/recon/fuzzing.md)
-  * [Port Scanning](pentesting/recon/port-scanning.md)
 * [Protocols](pentesting/protocols/README.md)
   * [FTP](pentesting/protocols/ftp.md)
   * [SMB](pentesting/protocols/smb.md)
@@ -19,7 +19,6 @@
   * [SMTP](pentesting/protocols/smtp.md)
   * [RSYNC](pentesting/protocols/rsync.md)
   * [IMAP / POP3](pentesting/protocols/imap-pop3.md)
-  * [DNS](pentesting/protocols/dns.md)
   * [SNMP](pentesting/protocols/snmp.md)
   * [IPMI](pentesting/protocols/ipmi.md)
   * [R-Services](pentesting/protocols/r-services.md)
@@ -50,8 +49,8 @@
 ## 🐧 Linux
 
 * [Commands and Utilities](linux/commands-and-utilities.md)
-* [Bash Scripting](linux/bash-scripting.md)
 * [Theory](linux/theory.md)
+* [Bash Scripting](linux/bash-scripting.md)
 * [Useful Commands](linux/useful-commands.md)
 
 ## 🌐 Networking

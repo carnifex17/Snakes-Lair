@@ -6,6 +6,7 @@
 * [**HTB Academy**](https://academy.hackthebox.com)
 * [**TryHackme**](https://tryhackme.com/)
 * [**PortSwigger**](https://portswigger.net/)
+* [**Vulnlab**](https://www.vulnlab.com/)
 
 ### AI
 
