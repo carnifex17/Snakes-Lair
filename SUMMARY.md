@@ -53,6 +53,11 @@
 * [Bash Scripting](linux/bash-scripting.md)
 * [Useful Commands](linux/useful-commands.md)
 
+## 🪟 WINDOWS
+
+* [Theory](windows/theory.md)
+* [Password Attacks](windows/password-attacks.md)
+
 ## 🌐 Networking
 
 * [Commands and Utilites](networking/commands-and-utilites.md)
