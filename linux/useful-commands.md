@@ -14,9 +14,11 @@ ssh-keygen -o
 
 [**CeWL**](https://www.geeksforgeeks.org/cewl-tool-creating-custom-wordlists-tool-in-kali-linux/) **(pronounced "cool") is a custom word list generator tool that spiders websites to create word lists based on the site's content**
 
-```
+{% code fullWidth="false" %}
+```bash
 cewl -d 0 -m 5 -w usernames.txt http://MACHINE_IP/team.php --lowercase
 ```
+{% endcode %}
 
 ***
 
