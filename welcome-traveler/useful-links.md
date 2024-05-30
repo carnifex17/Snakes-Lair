@@ -21,6 +21,7 @@
 
 ### Other
 
+* [**The Hacker Recipes**](https://www.thehacker.recipes/)
 * [**CyberChef**](https://gchq.github.io/CyberChef/)
 * [**GTFOBins**](https://gtfobins.github.io/)
 * [**Exploit-DB**](https://www.exploit-db.com/)

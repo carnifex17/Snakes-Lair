@@ -56,10 +56,19 @@
 ## 🪟 WINDOWS
 
 * [Theory](windows/theory.md)
-* [Password Attacks](windows/password-attacks.md)
+* [Credential Stealing](windows/credential-stealing.md)
 
 ## 🌐 Networking
 
 * [Commands and Utilites](networking/commands-and-utilites.md)
 * [Theory](networking/theory.md)
 * [OSI Model](networking/osi-model.md)
+
+## 📂 Active Directory
+
+* [Theory](active-directory/theory.md)
+
+## ☁️ CLOUD
+
+* [Google GKE/GCP](cloud/google-gke-gcp/README.md)
+  * [Theory](cloud/google-gke-gcp/theory.md)

