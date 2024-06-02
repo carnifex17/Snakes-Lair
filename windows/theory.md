@@ -30,6 +30,10 @@
 | HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings | Internet Explorer settings, such as proxy settings and security zones.        |
 | HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows       | Windows configuration information, such as system name and installation path. |
 
+## Windows Authentication Process
+
+<figure><img src="../.gitbook/assets/win_authprocess_image.png" alt=""><figcaption></figcaption></figure>
+
 ## SAM
 
 <mark style="color:red;">**The Security Accounts Manager**</mark>** is a database file in the Microsoft Windows operating system that contains usernames and passwords.** The SAM is available in different versions of Windows, including XP, Vista, 7, 8.1, 10 and 11. Each user account can be assigned a local area network (LAN) and a password would be hashed and stored in the SAM. The passwords hashes are stored in <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\SAM,**</mark> but the access to it is restricted. **HKLM/SAM** and **SYSTEM** privileges are required for accessing it.

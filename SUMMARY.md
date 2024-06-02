@@ -45,6 +45,7 @@
 * [Nmap](tools/nmap.md)
 * [John The Ripper](tools/john-the-ripper.md)
 * [Metasploit](tools/metasploit.md)
+* [Sliver](tools/sliver.md)
 
 ## 🐧 Linux
 
