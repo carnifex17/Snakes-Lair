@@ -32,7 +32,7 @@
 
 ## Windows Authentication Process
 
-<figure><img src="../.gitbook/assets/win_authprocess_image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/win_authproc_image.png" alt=""><figcaption></figcaption></figure>
 
 ## SAM
 
