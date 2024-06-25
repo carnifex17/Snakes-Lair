@@ -30,3 +30,6 @@ $ pdf2john server_doc.pdf > server_doc.hash
 $ john server_doc.hash
 $ john --wordlist=<wordlist.txt> server_doc.hash
 ```
+
+## Linux Shadow Files
+

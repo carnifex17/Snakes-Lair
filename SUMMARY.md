@@ -37,37 +37,42 @@
   * [Code](pentesting/file-transfers/code.md)
   * [Misc](pentesting/file-transfers/misc.md)
 * [Password Attacks](pentesting/password-attacks.md)
-* [Wireless Attacks](pentesting/wireless-attacks.md)
+* [Post-Exploitation](pentesting/post-exploitation.md)
 * [Detection And Evasion](pentesting/detection-and-evasion.md)
+* [Toolset](pentesting/toolset.md)
 
 ## 🛠️ TOOLS
 
 * [Nmap](tools/nmap.md)
+* [Hydra](tools/hydra.md)
 * [John The Ripper](tools/john-the-ripper.md)
 * [Metasploit](tools/metasploit.md)
 * [Sliver](tools/sliver.md)
 
 ## 🐧 Linux
 
-* [Commands and Utilities](linux/commands-and-utilities.md)
 * [Theory](linux/theory.md)
+* [Commands and Utilities](linux/commands-and-utilities.md)
 * [Bash Scripting](linux/bash-scripting.md)
 * [Useful Commands](linux/useful-commands.md)
+* [Cred Hunting](linux/cred-hunting.md)
 
 ## 🪟 WINDOWS
 
 * [Theory](windows/theory.md)
-* [Credential Stealing](windows/credential-stealing.md)
+* [Cred Hunting](windows/cred-hunting.md)
 
 ## 🌐 Networking
 
 * [Commands and Utilites](networking/commands-and-utilites.md)
 * [Theory](networking/theory.md)
 * [OSI Model](networking/osi-model.md)
+* [Wireless Attacks](networking/wireless-attacks.md)
 
 ## 📂 Active Directory
 
 * [Theory](active-directory/theory.md)
+* [Cred Hunting](active-directory/cred-hunting.md)
 
 ## ☁️ CLOUD
 

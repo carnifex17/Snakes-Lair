@@ -1,3 +1,7 @@
+---
+description: Linux have one big rule "everything is a file"
+---
+
 # Theory
 
 ## Crontab

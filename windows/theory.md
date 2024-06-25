@@ -2,7 +2,7 @@
 
 ## Windows Registry
 
-**The Windows Registry is a collection of databases of configuration settings for Windows.** The Registry is a database of all the settings that the Microsoft Windows operating system, its applications, and hardware device drivers use to maintain their configurations. **The Registry** is a hierarchical database. At the top of the hierarchy is your <mark style="color:blue;">**computer**</mark>. Under that, you’ll find the main branches, known as “<mark style="color:blue;">**hives.**</mark>” Within these hives are <mark style="color:blue;">**Registry keys**</mark><mark style="color:blue;">.</mark> Keys can contain <mark style="color:blue;">**sub-keys**</mark> and <mark style="color:blue;">**Registry values**</mark><mark style="color:blue;">.</mark>
+**The Windows Registry is a collection of databases of configuration settings for Windows.** The Registry is a database of all the settings that the Microsoft Windows operating system, its applications, and hardware device drivers use to maintain their configurations. **The Registry** is a hierarchical database. At the top of the hierarchy is your **computer**. Under that, you’ll find the main branches, known as “<mark style="color:red;">**hives.**</mark>” Within these hives are <mark style="color:red;">**Registry keys**</mark><mark style="color:red;">.</mark> Keys can contain <mark style="color:red;">**sub-keys**</mark> and <mark style="color:red;">**Registry values**</mark><mark style="color:red;">.</mark>
 
 <figure><img src="../.gitbook/assets/windows_registry_structure.png" alt=""><figcaption><p>Structure of Registry</p></figcaption></figure>
 
@@ -10,25 +10,25 @@
 
 
 
-| Registry Hive                | What is                                                                                                        |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| HKEY\_CLASSES\_ROOT (HKCR)   | Information about registered applications, file associations, and OLE( Object Linking and Embedding ) objects. |
-| HKEY\_CURRENT\_USER (HKCU)   | Settings specific to the current user, such as desktop settings and application settings.                      |
-| HKEY\_LOCAL\_MACHINE (HKLM)  | System-wide settings, security policies, and hardware configurations that apply to all users.                  |
-| HKEY\_USERS (HKU)            | All user profiles loaded on the computer, including the current user's profile.                                |
-| HKEY\_CURRENT\_CONFIG (HKCC) | Information about the current hardware profile of the computer, such as display and printer settings.          |
+| Registry Hive                                                     | What is                                                                                                        |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:blue;">**HKEY\_CLASSES\_ROOT (HKCR)**</mark>   | Information about registered applications, file associations, and OLE( Object Linking and Embedding ) objects. |
+| <mark style="color:blue;">**HKEY\_CURRENT\_USER (HKCU)**</mark>   | Settings specific to the current user, such as desktop settings and application settings.                      |
+| <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE (HKLM)**</mark>  | System-wide settings, security policies, and hardware configurations that apply to all users.                  |
+| <mark style="color:blue;">**HKEY\_USERS (HKU)**</mark>            | All user profiles loaded on the computer, including the current user's profile.                                |
+| <mark style="color:blue;">**HKEY\_CURRENT\_CONFIG (HKCC)**</mark> | Information about the current hardware profile of the computer, such as display and printer settings.          |
 
 ### Important Registry Keys
 
 
 
-| Registry Key                                                                    | What is                                                                       |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| HKEY\_LOCAL\_MACHINE\Security                                                   | Security settings, such as account policies and security options.             |
-| HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run              | List of programs that run automatically at startup.                           |
-| HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services                          | Information about system services, including startup type and dependencies.   |
-| HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings | Internet Explorer settings, such as proxy settings and security zones.        |
-| HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows       | Windows configuration information, such as system name and installation path. |
+| Registry Key                                                                                                         | What is                                                                       |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\Security**</mark>                                                   | Security settings, such as account policies and security options.             |
+| <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run**</mark>              | List of programs that run automatically at startup.                           |
+| <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services**</mark>                          | Information about system services, including startup type and dependencies.   |
+| <mark style="color:blue;">**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings**</mark> | Internet Explorer settings, such as proxy settings and security zones.        |
+| <mark style="color:blue;">**HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows**</mark>       | Windows configuration information, such as system name and installation path. |
 
 ## Windows Authentication Process
 
@@ -40,7 +40,13 @@
 
 ## LSASS
 
-<mark style="color:red;">**Local Security Authority Subsystem Service (LSASS)**</mark> is a collection of many modules and has access to all authentification processes that can be found in <mark style="color:green;">**`%SystemRoot%\System32\Lsass.exe`**</mark>. This service is responsible for the local system security policy, user authentication, and sending security audit logs to the Event Log.
+<mark style="color:red;">**Local Security Authority Subsystem Service (LSASS)**</mark> is a collection of many modules and has access to all authentication processes that can be found in <mark style="color:blue;">**`%SystemRoot%\System32\Lsass.exe`**</mark>. This service is responsible for the local system security policy, user authentication, and sending security audit logs to the Event Log.
+
+### LSA Secrets
+
+LSA Secrets are sensitive data stored by the **Local Security Authority** (LSA) on Windows systems.&#x20;
+
+This data is stored in the Windows Registry at <mark style="color:blue;">**`HKEY_LOCAL_MACHINE\Security\Policy\Secrets`**</mark>
 
 ## DPAPI
 
@@ -52,9 +58,13 @@
 * **Remote Desktop Connection**
 * **Credential Manager**
 
+## NTLM
+
+
+
 ***
 
 ## Important Files Location
 
-* _<mark style="color:green;">**C:\Windows\System32\drivers\etc**</mark> - Local DNS file, same role as Linux /etc/hosts_
+* _<mark style="color:green;">**C:\Windows\System32\drivers\etc**</mark> - **Local DNS file, same role as Linux /etc/hosts**_
 

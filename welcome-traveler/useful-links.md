@@ -22,6 +22,8 @@
 ### Other
 
 * [**The Hacker Recipes**](https://www.thehacker.recipes/)
+* [**The Hacker Tools**](https://tools.thehacker.recipes/)
+* [**ired.team**](https://www.ired.team/)
 * [**CyberChef**](https://gchq.github.io/CyberChef/)
 * [**GTFOBins**](https://gtfobins.github.io/)
 * [**Exploit-DB**](https://www.exploit-db.com/)
@@ -31,3 +33,4 @@
 * [**LOLOL**](https://lolol.farm/)
 * [**Crontab Guru**](https://crontab.guru/)
 * [**Hash Identifier**](https://hashes.com/en/tools/hash\_identifier)
+* [**vx-underground**](https://vx-underground.org/)
