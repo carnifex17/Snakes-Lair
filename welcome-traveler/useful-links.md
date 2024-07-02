@@ -34,3 +34,4 @@
 * [**Crontab Guru**](https://crontab.guru/)
 * [**Hash Identifier**](https://hashes.com/en/tools/hash\_identifier)
 * [**vx-underground**](https://vx-underground.org/)
+* [**GhostPack**](https://specterops.gitbook.io/ghostpack)
