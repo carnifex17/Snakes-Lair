@@ -100,35 +100,15 @@ There are several different types of SSL certificates. One certificate can apply
 
 ***
 
-* 'Single-domain': A single-domain `SSL` certificate applies to only one domain (a "domain" is the name of a website, like www.cloudflare.com).
+* `Single-domain`: A single-domain `SSL` certificate applies to only one domain (a "domain" is the name of a website, like www.cloudflare.com).
 
 ***
 
-* 'Wildcard': Like a single-domain certificate, a wildcard SSL certificate applies to only one domain. However, it also includes that domain's subdomains. For example, a wildcard certificate could cover www.cloudflare.com, blog.cloudflare.com, and developers.cloudflare.com, while a single-domain certificate could only cover the first.
+* `Wildcard`: Like a single-domain certificate, a wildcard SSL certificate applies to only one domain. However, it also includes that domain's subdomains. For example, a wildcard certificate could cover www.cloudflare.com, blog.cloudflare.com, and developers.cloudflare.com, while a single-domain certificate could only cover the first.
 
 ***
 
-* 'Multi-domain': As the name indicates, multi-domain SSL certificates can apply to multiple unrelated domains.
-
-***
-
-## SMB
-
-**`SMB` or `Server Message Block` is a network protocol used for file and printer sharing in a local area network (LAN). It allows computers to share files, printers, and other resources. SMB is often used in Windows-based environments, and it enables users to access files and resources on other computers within the same network.**
-
-***
-
-### Smb Enumeration
-
-**There are a good topic about this in** [**GeeksForGeeks**](https://www.geeksforgeeks.org/smb-enumeration/) **and in** [**HackTricks**](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb#smb) **or my** [**SMB**](../pentesting/protocols/smb.md) **notes.**
-
-***
-
-List SMB shares:
-
-```bash
-smbclient -L <target IP>
-```
+* `Multi-domain`: As the name indicates, multi-domain SSL certificates can apply to multiple unrelated domains.
 
 ***
 

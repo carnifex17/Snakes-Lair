@@ -64,8 +64,8 @@
 
 ## 🌐 Networking
 
-* [Commands and Utilites](networking/commands-and-utilites.md)
 * [Theory](networking/theory.md)
+* [Commands and Utilites](networking/commands-and-utilites.md)
 * [OSI Model](networking/osi-model.md)
 * [Wireless Attacks](networking/wireless-attacks.md)
 
@@ -74,7 +74,6 @@
 * [Theory](active-directory/theory.md)
 * [Windows Post-Exploitation](active-directory/windows-post-exploitation.md)
 * [Linux Post-Exploitation](active-directory/linux-post-exploitation.md)
-* [Cred Hunting](active-directory/cred-hunting.md)
 
 ## ☁️ CLOUD
 
