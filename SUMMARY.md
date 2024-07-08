@@ -39,7 +39,7 @@
 * [Password Attacks](pentesting/password-attacks.md)
 * [Post-Exploitation](pentesting/post-exploitation.md)
 * [Detection And Evasion](pentesting/detection-and-evasion.md)
-* [Toolset](pentesting/toolset.md)
+* [Other](pentesting/other.md)
 
 ## 🛠️ TOOLS
 
