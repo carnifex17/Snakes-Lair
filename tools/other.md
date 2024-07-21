@@ -4,14 +4,6 @@ description: Other useful not-so-big tools.
 
 # Other
 
-## File Hunting
-
-```bash
-for ext in $(echo ".xls .xls* .xltx .csv .od* .doc .doc* .pdf .pot .pot* .pp*");do echo -e "\nFile extension: " $ext; find / -name *$ext 2>/dev/null | grep -v "lib\|fonts\|share\|core" ;done
-```
-
-***
-
 ## username-anarchy
 
 [**\[LINK\]**](https://github.com/urbanadventurer/username-anarchy) Tool of generating random credentials  for making a wordlist
@@ -20,8 +12,6 @@ for ext in $(echo ".xls .xls* .xltx .csv .od* .doc .doc* .pdf .pot .pot* .pp*");
 ./username-anarchy -i /home/amogus1/names.txt 
 ```
 
-***
-
 ## linikatz
 
 [**\[LINK\]**](https://github.com/CiscoCXSecurity/linikatz) Just mimikatz analogue for Linux
@@ -29,8 +19,6 @@ for ext in $(echo ".xls .xls* .xltx .csv .od* .doc .doc* .pdf .pot .pot* .pp*");
 ```bash
 ./linikatz.sh
 ```
-
-***
 
 ## pwncat-cs
 
@@ -41,6 +29,21 @@ Listener: pwncat-cs 13.13.13.13 1337
 #(To change from pwncat shell to local shell, use Ctrl+D)
 ```
 
-***
+## CeWL
 
-##
+[**CeWL**](https://www.geeksforgeeks.org/cewl-tool-creating-custom-wordlists-tool-in-kali-linux/) **(pronounced "cool") is a custom word list generator tool that spiders websites to create word lists based on the site's content**
+
+{% code fullWidth="false" %}
+```bash
+cewl -d 0 -m 5 -w usernames.txt http://MACHINE_IP/team.php --lowercase
+```
+{% endcode %}
+
+## WPScan
+
+Useful tool for **Wordpress** pentesting.
+
+```bash
+wpscan --url http://13.13.13.13 --api-token DUVjyYasikdjflasjhflajds1zb5ampmFuTA4DNXYsf4
+wpscan --url http://13.13.13.13 --usernames names.txt --passwords pass.txt
+```

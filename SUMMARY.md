@@ -39,7 +39,6 @@
 * [Password Attacks](pentesting/password-attacks.md)
 * [Post-Exploitation](pentesting/post-exploitation.md)
 * [Detection And Evasion](pentesting/detection-and-evasion.md)
-* [Other](pentesting/toolset.md)
 
 ## 🛠️ TOOLS
 
@@ -48,14 +47,17 @@
 * [John The Ripper](tools/john-the-ripper.md)
 * [Metasploit](tools/metasploit.md)
 * [Sliver](tools/sliver.md)
+* [BloodHound](tools/bloodhound.md)
+* [Other](tools/other.md)
 
 ## 🐧 Linux
 
 * [Theory](linux/theory.md)
 * [Commands and Utilities](linux/commands-and-utilities.md)
 * [Bash Scripting](linux/bash-scripting.md)
-* [Useful Commands](linux/useful-commands.md)
 * [Cred Hunting](linux/cred-hunting.md)
+* [Privilege Escalation](linux/privilege-escalation.md)
+* [Useful Commands](linux/useful-commands.md)
 
 ## 🪟 WINDOWS
 
@@ -68,6 +70,7 @@
 * [Commands and Utilites](networking/commands-and-utilites.md)
 * [OSI Model](networking/osi-model.md)
 * [Wireless Attacks](networking/wireless-attacks.md)
+* [Network Hacking](networking/network-hacking.md)
 
 ## 📂 Active Directory
 
