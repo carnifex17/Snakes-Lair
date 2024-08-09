@@ -47,3 +47,7 @@ Useful tool for **Wordpress** pentesting.
 wpscan --url http://13.13.13.13 --api-token DUVjyYasikdjflasjhflajds1zb5ampmFuTA4DNXYsf4
 wpscan --url http://13.13.13.13 --usernames names.txt --passwords pass.txt
 ```
+
+## Wormhole
+
+[**\[LINK\]**](https://github.com/magic-wormhole/magic-wormhole) **CMD Tool for secure sending**&#x20;

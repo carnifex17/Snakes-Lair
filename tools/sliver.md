@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Sliver
 
 ## What is this?

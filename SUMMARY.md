@@ -1,12 +1,12 @@
 # Table of contents
 
-## 🤠 Welcome Traveler
+## Welcome wanderer
 
-* [👾 About Me](README.md)
-* [👀 Useful Links](welcome-traveler/useful-links.md)
-* [📜 Certificates](welcome-traveler/certificates.md)
+* [About Me](README.md)
+* [Useful Links](welcome-wanderer/useful-links.md)
+* [Certificates](welcome-wanderer/certificates.md)
 
-## 💻 PENTESTING
+## PENTESTING
 
 * [Recon](pentesting/recon/README.md)
   * [DNS](pentesting/recon/dns.md)
@@ -40,7 +40,7 @@
 * [Post-Exploitation](pentesting/post-exploitation.md)
 * [Detection And Evasion](pentesting/detection-and-evasion.md)
 
-## 🛠️ TOOLS
+## TOOLS
 
 * [Nmap](tools/nmap.md)
 * [Hydra](tools/hydra.md)
@@ -50,7 +50,7 @@
 * [BloodHound](tools/bloodhound.md)
 * [Other](tools/other.md)
 
-## 🐧 Linux
+## Linux
 
 * [Theory](linux/theory.md)
 * [Commands and Utilities](linux/commands-and-utilities.md)
@@ -59,26 +59,28 @@
 * [Privilege Escalation](linux/privilege-escalation.md)
 * [Useful Commands](linux/useful-commands.md)
 
-## 🪟 WINDOWS
+## WINDOWS
 
 * [Theory](windows/theory.md)
 * [Cred Hunting](windows/cred-hunting.md)
 
-## 🌐 Networking
+## Internal
 
-* [Theory](networking/theory.md)
-* [Commands and Utilites](networking/commands-and-utilites.md)
-* [OSI Model](networking/osi-model.md)
-* [Wireless Attacks](networking/wireless-attacks.md)
-* [Network Hacking](networking/network-hacking.md)
+* [Active Directory](internal/active-directory/README.md)
+  * [Theory](internal/active-directory/theory.md)
+  * [Windows Post-Exploitation](internal/active-directory/windows-post-exploitation.md)
+  * [Linux Post-Exploitation](internal/active-directory/linux-post-exploitation.md)
+* [Recon](internal/recon.md)
 
-## 📂 Active Directory
+## Networks
 
-* [Theory](active-directory/theory.md)
-* [Windows Post-Exploitation](active-directory/windows-post-exploitation.md)
-* [Linux Post-Exploitation](active-directory/linux-post-exploitation.md)
+* [Theory](networks/theory.md)
+* [Commands and Utilites](networks/commands-and-utilites.md)
+* [OSI Model](networks/osi-model.md)
+* [Wireless Attacks](networks/wireless-attacks.md)
+* [Network Hacking](networks/network-hacking.md)
 
-## ☁️ CLOUD
+## CLOUD
 
 * [Google GKE/GCP](cloud/google-gke-gcp/README.md)
   * [Theory](cloud/google-gke-gcp/theory.md)

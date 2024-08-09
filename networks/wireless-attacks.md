@@ -1,5 +1,6 @@
 ---
 description: This would be empty for some time
+hidden: true
 ---
 
 # Wireless Attacks

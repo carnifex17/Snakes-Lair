@@ -18,11 +18,11 @@ After Windows system became part of the domain, it's interaction with SAM is ove
 
 <mark style="color:red;">**Kerberos**</mark> is default domain accounts authentication protocol since **Windows 2000**. Main difference between other authentication protocols is that **Kerberos** use tickets, instead of just transmitting passwords all over the network. This image will show you simplified version of **Kerberos** authentication process, and then I'll explain everything in parts. Also for more detailed explanations I could recommend to watch [**\[THIS\]**](https://youtu.be/5N242XcKAsM?t=870) video.
 
-<figure><img src="../.gitbook/assets/kerb_auth_image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/kerb_auth_image.png" alt=""><figcaption></figcaption></figure>
 
 The whole **ping-pong** of tickets and requests is shows here:
 
-<figure><img src="../.gitbook/assets/Screenshot_2024-06-28_20_59_14.png" alt=""><figcaption><p>Image is from video above</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_2024-06-28_20_59_14.png" alt=""><figcaption><p>Image is from video above</p></figcaption></figure>
 
 ### Main Kerberos Terms
 

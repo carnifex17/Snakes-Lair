@@ -1,8 +1,9 @@
 ---
 description: Here's my certificates, and there will definitely be more here :)
+icon: medal
 ---
 
-# 📜 Certificates
+# Certificates
 
 <figure><img src="../.gitbook/assets/Dante.png" alt=""><figcaption></figcaption></figure>
 
