@@ -24,4 +24,4 @@ I am <mark style="color:purple;">`{carnifex17}`</mark>, pizza fan, cybersecurity
 
 ***
 
-<figure><img src=".gitbook/assets/361243140279693.62a7a136297a1.gif" alt=""><figcaption><p>Awesome art from <strong>Manuel Cetina</strong><a href="https://www.behance.net/elstitch"> <strong>[LINK]</strong></a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/101c15140279693.62a7a13629e35.gif" alt=""><figcaption><p>Awesome art from <strong>Manuel Cetina</strong><a href="https://www.behance.net/elstitch"> <strong>[LINK]</strong></a></p></figcaption></figure>
