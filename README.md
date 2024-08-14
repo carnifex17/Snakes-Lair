@@ -1,6 +1,11 @@
 ---
 icon: ghost
+cover: .gitbook/assets/Screenshot_2024-08-14_20_26_40.png
+coverY: 0
 layout:
+  cover:
+    visible: true
+    size: hero
   title:
     visible: true
   description:
@@ -19,4 +24,4 @@ I am <mark style="color:purple;">`{carnifex17}`</mark>, pizza fan, cybersecurity
 
 ***
 
-<figure><img src=".gitbook/assets/dl.beatsnoop.com-1720197746.gif" alt="" width="525"><figcaption><p>Art by <strong>Manuel Cetina</strong> <a href="https://www.behance.net/elstitch"><strong>[LINK]</strong></a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/361243140279693.62a7a136297a1.gif" alt=""><figcaption><p>Awesome art from <strong>Manuel Cetina</strong><a href="https://www.behance.net/elstitch"> <strong>[LINK]</strong></a></p></figcaption></figure>
