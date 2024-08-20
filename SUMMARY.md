@@ -8,9 +8,10 @@
 
 ## PENTESTING
 
-* [Recon](pentesting/recon/README.md)
-  * [DNS](pentesting/recon/dns.md)
-  * [Fuzzing](pentesting/recon/fuzzing.md)
+* [Methodology](pentesting/methodology.md)
+* [Recon (FOR WEB LATER)](pentesting/recon-for-web-later/README.md)
+  * [DNS](pentesting/recon-for-web-later/dns.md)
+  * [Fuzzing](pentesting/recon-for-web-later/fuzzing.md)
 * [Protocols](pentesting/protocols/README.md)
   * [FTP](pentesting/protocols/ftp.md)
   * [SMB](pentesting/protocols/smb.md)
@@ -55,22 +56,32 @@
 * [Theory](linux/theory.md)
 * [Commands and Utilities](linux/commands-and-utilities.md)
 * [Bash Scripting](linux/bash-scripting.md)
-* [Cred Hunting](linux/cred-hunting.md)
-* [Privilege Escalation](linux/privilege-escalation.md)
+* [Post-Exploitation](linux/post-exploitation/README.md)
+  * [Cred Hunting](linux/post-exploitation/cred-hunting.md)
+  * [Privilege Escalation](linux/post-exploitation/privilege-escalation.md)
+  * [Pivoting](linux/post-exploitation/pivoting.md)
 * [Useful Commands](linux/useful-commands.md)
 
 ## WINDOWS
 
 * [Theory](windows/theory.md)
-* [Cred Hunting](windows/cred-hunting.md)
+* [Post-Exploitation](windows/post-exploitation/README.md)
+  * [Cred Hunting](windows/post-exploitation/cred-hunting.md)
+  * [Privilege Escalation](windows/post-exploitation/privilege-escalation.md)
+  * [Pivoting](windows/post-exploitation/pivoting.md)
 
-## Internal
+## ACTIVE DIRECTORY
 
-* [Active Directory](internal/active-directory/README.md)
-  * [Theory](internal/active-directory/theory.md)
-  * [Windows Post-Exploitation](internal/active-directory/windows-post-exploitation.md)
-  * [Linux Post-Exploitation](internal/active-directory/linux-post-exploitation.md)
-* [Recon](internal/recon.md)
+* [Theory](active-directory/theory.md)
+* [Recon](active-directory/recon.md)
+* [Movement](active-directory/movement/README.md)
+  * [ADCS](active-directory/movement/adcs.md)
+  * [Credentials](active-directory/movement/credentials/README.md)
+    * [Ticket/Hash Attacks](active-directory/movement/credentials/ticket-hash-attacks.md)
+  * [Powershell Remoting](active-directory/movement/powershell-remoting.md)
+* [Persistence](active-directory/persistence.md)
+* [Linux](active-directory/linux/README.md)
+  * [Linux Post-Exploitation](active-directory/linux/linux-post-exploitation.md)
 
 ## Networks
 

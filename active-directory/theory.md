@@ -14,21 +14,37 @@
 
 After Windows system became part of the domain, it's interaction with SAM is over, they've broke up and it's new boyfriend is Domain Controller. And all questions about checking password would now be sent to Domain Controller, not SAM.  But in some ways system could come over to SAM if specify the `hostname` of the device proceeded by the `username` like <mark style="color:blue;">**WS01/nameofuser**</mark>**.**&#x20;
 
+## PKI
+
+<mark style="color:red;">**PKI (Public Key Infrastructure)**</mark> is a <mark style="color:purple;">**framework**</mark> that provides the creation, distribution, management of digital certificates. It ensures secure communication over networks by authenticating users, devices, and services through the use of public and private key pairs.
+
+## ADCS
+
+<mark style="color:red;">**Active Directory Certificate Services (AD CS)**</mark> is a **Windows Server **<mark style="color:purple;">**role**</mark> for issuing and managing <mark style="color:red;">**public key infrastructure (PKI)**</mark> certificates used in secure communication and authentication protocols. So basically it is **PKI** framework functionality implementation in **AD** and **Windows Server**.
+
+## CA
+
+<mark style="color:red;">**Certificate Authority (CA)**</mark> in **Active Directory Certificate Services (ADCS)** is a <mark style="color:purple;">**trusted entity**</mark> responsible for issuing, managing, and validating digital certificates in an Active Directory environment. These digital certificates are used to verify identities, secure communications, and enable authentication across the network.
+
+## UPN
+
+<mark style="color:red;">**UPN (User Principal Name)**</mark> in Active Directory (AD) is a unique <mark style="color:purple;">**identifier**</mark> assigned to a user, which typically resembles an email address. It is used to log on to the domain and can be considered a "user-friendly" form of a username that simplifies authentication in a network environment.
+
 ## Kerberos
 
-<mark style="color:red;">**Kerberos**</mark> is default domain accounts authentication protocol since **Windows 2000**. Main difference between other authentication protocols is that **Kerberos** use tickets, instead of just transmitting passwords all over the network. This image will show you simplified version of **Kerberos** authentication process, and then I'll explain everything in parts. Also for more detailed explanations I could recommend to watch [**\[THIS\]**](https://youtu.be/5N242XcKAsM?t=870) video.
+<mark style="color:red;">**Kerberos**</mark> is default domain accounts <mark style="color:purple;">**authentication protocol**</mark> since **Windows 2000**. Main difference between other authentication protocols is that **Kerberos** use tickets, instead of just transmitting passwords all over the network. This image will show you simplified version of **Kerberos** authentication process, and then I'll explain everything in parts. Also for more detailed explanations I could recommend to watch [**\[THIS\]**](https://youtu.be/5N242XcKAsM?t=870) video.
 
-<figure><img src="../../.gitbook/assets/kerb_auth_image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/kerb_auth_image.png" alt=""><figcaption></figcaption></figure>
 
 The whole **ping-pong** of tickets and requests is shows here:
 
-<figure><img src="../../.gitbook/assets/Screenshot_2024-06-28_20_59_14.png" alt=""><figcaption><p>Image is from video above</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_2024-06-28_20_59_14.png" alt=""><figcaption><p>Image is from video above</p></figcaption></figure>
 
 ### Main Kerberos Terms
 
 *   **Key Distribution Center (KDC)**:
 
-    Core of **Kerberos** authentication that manages secret keys and distributes them to clients and servers. It is divided into two main components: the <mark style="color:red;">**Authentication Server (AS)**</mark> and the <mark style="color:red;">**T**</mark><mark style="color:red;">**icket Granting Server (TGS)**</mark>.
+    Core of **Kerberos** authentication that manages secret keys and distributes them to clients and servers. It is divided into two main components: the <mark style="color:red;">**Authentication Server (AS)**</mark> and the <mark style="color:red;">**Ticket Granting Server (TGS)**</mark>.
 *   **Authentication Server (AS)**:
 
     Part of the **KDC** that verifies the identity of the client. Upon successful authentication, it issues a <mark style="color:red;">**Ticket Granting Ticket (TGT)**</mark> to the client, which can be used to request service tickets from the **TGS**. There are also database with hashes of user credentials.
