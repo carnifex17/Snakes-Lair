@@ -62,6 +62,24 @@ This data is stored in the Windows Registry at <mark style="color:blue;">**`HKEY
 
 
 
+
+
+## SysInternals
+
+<mark style="color:red;">**Windows Sysinternals**</mark> is a powerful <mark style="color:purple;">**suite of utilities**</mark> created by **Mark Russinovich**, which is now owned by **Microsoft**. These tools are primarily designed for **system troubleshooting, monitoring, and diagnostics**, but they can also be extremely valuable for security researchers and ethical hackers. The tools are used to understand the internal workings of Windows, uncover security weaknesses, and perform forensic analysis.
+
+### PsExec
+
+<mark style="color:red;">**PsExec**</mark> is a command-line <mark style="color:purple;">**tool**</mark> from the <mark style="color:yellow;">**Windows Sysinternals**</mark> suite that allows you to execute processes on remote systems without needing to manually install client software. It works over **SMB (Server Message Block)**, enabling remote command execution on Windows machines, making it a powerful tool for both system administration and ethical hacking.
+
+**Usage** (same things to <mark style="color:green;">**`impacket-smbexec`**</mark> and <mark style="color:green;">**`impacket-atexec`**</mark>):
+
+```bash
+impacket-psexec administrator:'amoguskek'@13.13.13.13
+```
+
+
+
 ***
 
 ## Important Files Location

@@ -1,5 +1,7 @@
 # Bash Scripting
 
+## What it is?
+
 **Bash is the scripting language we use to communicate with Unix-based OS and give commands to the system.**
 
 ***

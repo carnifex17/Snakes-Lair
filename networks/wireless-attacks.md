@@ -9,4 +9,8 @@ hidden: true
 
 ```bash
 iwconfig
+OR
+ss -tulpn #(or tulpan for remembering)
+OR
+netstat -tulpn
 ```

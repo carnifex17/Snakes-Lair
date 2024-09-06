@@ -9,9 +9,6 @@
 ## PENTESTING
 
 * [Methodology](pentesting/methodology.md)
-* [Recon (FOR WEB LATER)](pentesting/recon-for-web-later/README.md)
-  * [DNS](pentesting/recon-for-web-later/dns.md)
-  * [Fuzzing](pentesting/recon-for-web-later/fuzzing.md)
 * [Protocols](pentesting/protocols/README.md)
   * [FTP](pentesting/protocols/ftp.md)
   * [SMB](pentesting/protocols/smb.md)
@@ -38,14 +35,19 @@
   * [Code](pentesting/file-transfers/code.md)
   * [Misc](pentesting/file-transfers/misc.md)
 * [Password Attacks](pentesting/password-attacks.md)
+* [Docker](pentesting/docker.md)
 * [Post-Exploitation](pentesting/post-exploitation.md)
-* [Detection And Evasion](pentesting/detection-and-evasion.md)
+* [Recon (FOR WEB LATER)](pentesting/recon-for-web-later/README.md)
+  * [DNS](pentesting/recon-for-web-later/dns.md)
+  * [Fuzzing](pentesting/recon-for-web-later/fuzzing.md)
+* [Detection And Evasion (FOR RT LATER)](pentesting/detection-and-evasion-for-rt-later.md)
 
 ## TOOLS
 
 * [Nmap](tools/nmap.md)
 * [Hydra](tools/hydra.md)
 * [John The Ripper](tools/john-the-ripper.md)
+* [Responder](tools/responder.md)
 * [Metasploit](tools/metasploit.md)
 * [Sliver](tools/sliver.md)
 * [BloodHound](tools/bloodhound.md)
@@ -65,6 +67,7 @@
 ## WINDOWS
 
 * [Theory](windows/theory.md)
+* [PowerShell](windows/powershell.md)
 * [Post-Exploitation](windows/post-exploitation/README.md)
   * [Cred Hunting](windows/post-exploitation/cred-hunting.md)
   * [Privilege Escalation](windows/post-exploitation/privilege-escalation.md)

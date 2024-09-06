@@ -20,8 +20,8 @@ layout:
 
 # About Me
 
-I am <mark style="color:purple;">`{carnifex17}`</mark>, pizza fan, cybersecurity student, ethical hacker, and just a good guy. I am active on platforms like [<mark style="color:green;">**Hackthebox**</mark>](https://app.hackthebox.com/profile/637180) and [<mark style="color:blue;">**TryHackMe**</mark>](https://tryhackme.com/p/carnifex17) and member of [<mark style="color:purple;">**purplestorm**</mark>](https://discord.gg/purplestorm) team. Here you could find my notes, interesting and useful things and also here would be my portfolio later.
+I am <mark style="color:purple;">`{carnifex17}`</mark>, pizza fan, cybersecurity student, ethical hacker, and just a good guy who's motivated to become the best version of himself. I am active on platforms like [<mark style="color:green;">**Hackthebox**</mark>](https://app.hackthebox.com/profile/637180) and [<mark style="color:blue;">**TryHackMe**</mark>](https://tryhackme.com/p/carnifex17) and member of [<mark style="color:purple;">**purplestorm**</mark>](https://discord.gg/purplestorm) team. Here you could find my notes, interesting and useful things.
 
 ***
 
-<figure><img src=".gitbook/assets/101c15140279693.62a7a13629e35.gif" alt=""><figcaption><p>Awesome art from <strong>Manuel Cetina</strong><a href="https://www.behance.net/elstitch"> <strong>[LINK]</strong></a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/wise-wolf.gif" alt=""><figcaption><p><em><mark style="color:purple;"><strong>Greatness is a metal forged by strength, will and knowledge</strong></mark></em></p></figcaption></figure>

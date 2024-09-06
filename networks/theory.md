@@ -52,9 +52,42 @@ So algoritm is that you should replace all `one's` in IP with `zero's` in mask a
 
 ***
 
+## SSH Tunneling
+
+* `SSH Tunneling` - is a mechanism that allows you to securely transfer data over an unsecured network by encrypting and securing the connection between two points.\
+  `SSH (Secure Shell)` - is a protocol for secure remote computer operation and data transfer, and it is used to create these secure tunnels. Mostly we could do the same things with local and reverse tunneling, but it depends which things we are controlling, remote server or local computer. Also to not be confused, you should always remember that "local" is subjective term.\* Also [this](https://youtu.be/AtuAdk4MwWw?si=85DZ-shYuHFJIqX2) video explains very well this topic
+
+***
+
+The main types of SSH Tunneling include:
+
+1. **`Local Port Forwarding`**: This type of tunneling allows you to pass traffic between your local computer and a remote server over SSH. So shortly we just communicate to some remote service, but in system level all requests to remote server will come through our our local port. It is pretty useful if we want to communicate to remote database as it is our local database. Useful stuff
+
+<figure><img src="../.gitbook/assets/ssh-image1.jpg" alt="" width="563"><figcaption><p>Local Port Forwarding</p></figcaption></figure>
+
+```bash
+ssh -L local_port:destination_address:destination_port username@remote_server
+```
+
+***
+
+2. **`Remote or Reverse Port Forwarding`**: In this case, the remote server is used to transfer traffic from the remote port to the local computer.
+
+<figure><img src="../.gitbook/assets/ssh-image2.jpg" alt="" width="563"><figcaption><p>Remote Port Forwarding</p></figcaption></figure>
+
+```bash
+ssh -R remote_port:localhost:local_port username@local_machine_ip
+```
+
+3. **`Dynamic Port Forwarding`**: This type of tunneling allows you to create a "proxy" on a remote server through which you can route traffic from your local computer through the remote server to various Internet resources. This is especially useful when you need anonymous access to the Internet or when you need to bypass network restrictions.
+
+```bash
+ssh -D local_socks_port username@remote_server
+```
+
 ## Network Sockets
 
-**A `socket` - is one endpoint of a two way communication link between two programs running on the network. Sockets have two main states: They are either connected and facilitating an ongoing network communication, or they are waiting for an incoming connection to connect to them. The listening socket is called the server, and the socket that requests a connection with the listening socket is called a client. You could use** [**netstat**](https://github.com/carnifex17/Cybersecurity-Notes/blob/main/Networking%20Notes.md#netstat) **command to manage and discover your own sockets, for what and where are they used. The "Active Internet" section lists the network connections that are (or will be) established to external devices. The "UNIX domain" section lists the connections that have been established within your computer between different applications, processes, and elements of the operating system.**
+<mark style="color:red;">**Socket**</mark> - is one <mark style="color:purple;">**endpoint**</mark> of a two way communication link between two programs running on the network. Sockets have two main states: They are either <mark style="color:yellow;">**connected**</mark> and facilitating an ongoing network communication, or they are <mark style="color:yellow;">**waiting**</mark> for an incoming connection to connect to them. The listening socket is called the server, and the socket that requests a connection with the listening socket is called a client. You could use **netstat** command to manage and discover your own sockets, for what and where are they used. The "Active Internet" section lists the network connections that are (or will be) established to external devices. The "UNIX domain" section lists the connections that have been established within your computer between different applications, processes, and elements of the operating system.
 
 ***
 
