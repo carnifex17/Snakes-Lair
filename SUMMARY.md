@@ -36,7 +36,7 @@
   * [Misc](pentesting/file-transfers/misc.md)
 * [Password Attacks](pentesting/password-attacks.md)
 * [Docker](pentesting/docker.md)
-* [Post-Exploitation](pentesting/post-exploitation.md)
+* [Pass-The-Hash(FOR LIN\&WIN)](pentesting/pass-the-hash-for-lin-and-win.md)
 * [Recon (FOR WEB LATER)](pentesting/recon-for-web-later/README.md)
   * [DNS](pentesting/recon-for-web-later/dns.md)
   * [Fuzzing](pentesting/recon-for-web-later/fuzzing.md)

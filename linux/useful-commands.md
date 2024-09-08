@@ -34,8 +34,8 @@ base64 -d [decode]
 ## **Grab banner**
 
 ```bash
-nc -nv 10.129.2.28 25
-sudo tcpdump -i eth0 host 10.10.14.2 and 10.129.2.28
+nc -nv 13.13.13.13 25
+sudo tcpdump -i eth0 host 13.13.13.13 and 13.13.13.14
 ```
 
 ## pspy64
