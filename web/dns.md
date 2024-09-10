@@ -4,11 +4,11 @@
 
 <mark style="color:red;">**Domain Name System (DNS)**</mark> is an integral <mark style="color:purple;">**part of the Internet**</mark>**.** For example, through domain names, such as <mark style="color:green;">**carnifex17.gitbook.io**</mark> or <mark style="color:green;">**www.google.com**</mark>, we can reach the web servers that the hosting provider has assigned one or more specific IP addresses. **DNS** is a system for resolving computer names into IP addresses, and it does not have a central database. The configuration files are usually : <mark style="color:green;">`named.conf.local`</mark>, <mark style="color:green;">`named.conf.options`</mark>, <mark style="color:green;">`named.conf.log`</mark>. DNS commonly is used by <mark style="color:yellow;">**UDP port 53**</mark>, or TCP if UDP isn't accessible.
 
-<figure><img src="../.gitbook/assets/test1.png" alt=""><figcaption></figcaption></figure>
-
 ## Server Types
 
 ***
+
+<figure><img src="../.gitbook/assets/recursive-resolver.png" alt=""><figcaption><p>Image from here <a href="https://www.cloudflare.com/learning/dns/dns-server-types/"><strong>[LINK]</strong></a></p></figcaption></figure>
 
 #### <mark style="color:blue;">DNS Root Server</mark>
 
