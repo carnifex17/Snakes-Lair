@@ -1,5 +1,13 @@
 # Nmap
 
+## About
+
+Nmap is a complex port-scanning tool which is very often used by security specialists. It's more complex that ncat so in some ways sysadmins or programmers could use them to check hosts and port available.
+
+<figure><img src="../.gitbook/assets/photo_2024-10-22_15-37-44.jpg" alt=""><figcaption><p>Basic nmap version+script scanning</p></figcaption></figure>
+
+## CheatSheet
+
 | Option             | Description                                                         |
 | ------------------ | ------------------------------------------------------------------- |
 | 10.10.10.0/24      | Target network range.                                               |

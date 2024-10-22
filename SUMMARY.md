@@ -34,7 +34,9 @@
   * [Linux](pentesting/file-transfers/linux.md)
   * [Code](pentesting/file-transfers/code.md)
   * [Misc](pentesting/file-transfers/misc.md)
-* [Password Attacks](pentesting/password-attacks.md)
+* [Password Attacks](pentesting/password-attacks/README.md)
+  * [John The Ripper](pentesting/password-attacks/john-the-ripper.md)
+  * [Hashcat](pentesting/password-attacks/hashcat.md)
 * [Docker](pentesting/docker.md)
 * [Pass-The-Hash(FOR LIN\&WIN)](pentesting/pass-the-hash-for-lin-and-win.md)
 * [Detection And Evasion (FOR RT LATER)](pentesting/detection-and-evasion-for-rt-later.md)
@@ -43,7 +45,6 @@
 
 * [Nmap](tools/nmap.md)
 * [Hydra](tools/hydra.md)
-* [John The Ripper](tools/john-the-ripper.md)
 * [Responder](tools/responder.md)
 * [Metasploit](tools/metasploit.md)
 * [Sliver](tools/sliver.md)
@@ -62,19 +63,20 @@
 * [Theory](linux/theory.md)
 * [Commands and Utilities](linux/commands-and-utilities.md)
 * [Bash Scripting](linux/bash-scripting.md)
+* [Privilege Escalation](linux/privilege-escalation.md)
 * [Post-Exploitation](linux/post-exploitation/README.md)
   * [Cred Hunting](linux/post-exploitation/cred-hunting.md)
-  * [Privilege Escalation](linux/post-exploitation/privilege-escalation.md)
   * [Pivoting](linux/post-exploitation/pivoting.md)
 * [Useful Commands](linux/useful-commands.md)
 
 ## WINDOWS
 
 * [Theory](windows/theory.md)
+* [Commands and Utilities](windows/commands-and-utilities.md)
 * [PowerShell](windows/powershell.md)
+* [Privilege Escalation](windows/privilege-escalation.md)
 * [Post-Exploitation](windows/post-exploitation/README.md)
   * [Cred Hunting](windows/post-exploitation/cred-hunting.md)
-  * [Privilege Escalation](windows/post-exploitation/privilege-escalation.md)
   * [Pivoting](windows/post-exploitation/pivoting.md)
 
 ## ACTIVE DIRECTORY
@@ -92,9 +94,13 @@
 
 ## Networks
 
-* [Theory](networks/theory.md)
+* [Theory](networks/theory/README.md)
+  * [OSI Model](networks/theory/osi-model.md)
+  * [TCP / UDP](networks/theory/tcp-udp.md)
+  * [IP / Subnetting](networks/theory/ip-subnetting.md)
+  * [Pivoting / Tunneling](networks/theory/pivoting-tunneling.md)
+  * [ARP](networks/theory/arp.md)
 * [Commands and Utilites](networks/commands-and-utilites.md)
-* [OSI Model](networks/osi-model.md)
 * [Wireless Attacks](networks/wireless-attacks.md)
 * [Network Hacking](networks/network-hacking.md)
 

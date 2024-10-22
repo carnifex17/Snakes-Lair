@@ -1,56 +1,8 @@
+---
+hidden: true
+---
+
 # Theory
-
-## IP and Subnetting
-
-**IP or Internet Protocol is Network OSI layers protocol, which is used for identifying devices in the Internet. For this it uses IP addresses. But there are billions of devices, so to communicate fast and easy with each of it, IP connects firstly not to devices itself, but to subnet, in which this device is located. This is called `Scaling`. Also IP address is 32 bit number, where every 8 bit is called `octet`**
-
-***
-
-**`Subnet` - is the set of computers, which older part of IP address is same:**
-
-* 312.245.10.1
-* 312.245.10.2
-* 312.245.10.3 Routers works with subnets, not just with certain computers.
-
-***
-
-### Subnet Mask
-
-**`Subnet mask` is 32-bit number, which shows us, where in IP address number of network, and where is host. Previously, `Subnet Classes` were used to classify subnets, but this scheme is outdated, so they started using `CIDR`, which means `Classless Inter-Domain Routing`**
-
-Mask structure:
-
-* **1** in position, specifying net number
-* **0** in position, specifying host number
-
-| Explanation    | Number                              |
-| -------------- | ----------------------------------- |
-| `IP(Decimal):` | 213.180.193.3                       |
-| `IP:`          | 11010101.10110100.11000001.00000011 |
-| `Mask:`        | 11111111.11111111.11111111.00000000 |
-| `Subnet:`      | 11010101.10110100.11000001.00000000 |
-
-***
-
-Subnet mask could be shown with 2 types: decimal and prefix
-
-* **Decimal**: 255.255.255.0
-* **Prefix**: /24. Prefix 24 means 24 bits of subnet address in IP address.
-
-**The subnet mask does not have to end on an octet boundary**
-
-| Explanation        | Number                              |
-| ------------------ | ----------------------------------- |
-| `IP(Decimal):`     | 213.180.193.3 /20                   |
-| `IP:`              | 11010101.10110100.11000001.00000011 |
-| `Mask:`            | 11111111.11111111.11110000.00000000 |
-| `Subnet:`          | 11010101.10110100.11000000.00000000 |
-| `Subnet(Decimal):` | 213.180.192.0                       |
-| `Host(Decimal):`   | 0.0.1.3                             |
-
-So algoritm is that you should replace all `one's` in IP with `zero's` in mask at the same position.
-
-***
 
 ## SSH Tunneling
 
@@ -63,7 +15,7 @@ The main types of SSH Tunneling include:
 
 1. **`Local Port Forwarding`**: This type of tunneling allows you to pass traffic between your local computer and a remote server over SSH. So shortly we just communicate to some remote service, but in system level all requests to remote server will come through our our local port. It is pretty useful if we want to communicate to remote database as it is our local database. Useful stuff
 
-<figure><img src="../.gitbook/assets/ssh-image1.jpg" alt="" width="563"><figcaption><p>Local Port Forwarding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ssh-image1.jpg" alt="" width="563"><figcaption><p>Local Port Forwarding</p></figcaption></figure>
 
 ```bash
 ssh -L local_port:destination_address:destination_port username@remote_server
@@ -73,7 +25,7 @@ ssh -L local_port:destination_address:destination_port username@remote_server
 
 2. **`Remote or Reverse Port Forwarding`**: In this case, the remote server is used to transfer traffic from the remote port to the local computer.
 
-<figure><img src="../.gitbook/assets/ssh-image2.jpg" alt="" width="563"><figcaption><p>Remote Port Forwarding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ssh-image2.jpg" alt="" width="563"><figcaption><p>Remote Port Forwarding</p></figcaption></figure>
 
 ```bash
 ssh -R remote_port:localhost:local_port username@local_machine_ip
@@ -205,35 +157,3 @@ openssl x509 -in certificate.pem -text -noout
        ```bash
        openssl sha256 file.txt
        ```
-
-***
-
-## ARP
-
-**The acronym `ARP` stands for `Address Resolution Protocol` which is one of the most important protocols of the Data link layer in the `OSI` model. It is responsible to find the hardware address of a host from a known `IP` address. So as I get we use ARP when we need to send some info on 2 level of `OSI`, which requires `MAC` address. Every machine has it's own `ARP` cache, where is table like IP-MAC data. So when we need to send some data on `Data Link` level, we broadcast request to entire network like "Hey, who is 10.10.10.10, I want to find his MAC". And if we found it address, it will tell us back with "Hi, you looking for 10.10.10.10? It's me, here's my MAC".**
-
-### ARP Spoofing & ARP DOS
-
-### Bettercap
-
-**Bettercap is a powerful, modular, and flexible open-source tool designed for network penetration testing. It is primarily used for network discovery, man-in-the-middle attacks, and other security assessments. Bettercap is written in Go and comes with a variety of features that make it a valuable tool for security professionals and ethical hackers. Here are some key aspects that make Bettercap useful:**
-
-***
-
-**Example**
-
-_Ban the address 192.168.1.6 from the network:_
-
-```linux
-> set arp.spoof.targets 192.168.1.6; arp.ban on
-```
-
-_Spoof 192.168.1.2, 192.168.1.3 and 192.168.1.4:_
-
-```linux
-> set arp.spoof.targets 192.168.1.2-4; arp.spoof on
-```
-
-**After spoofing or poisoning we could look or change traffic with wireshark**
-
-***
