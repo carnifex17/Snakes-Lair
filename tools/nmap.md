@@ -6,6 +6,10 @@ Nmap is a complex port-scanning tool which is very often used by security specia
 
 <figure><img src="../.gitbook/assets/photo_2024-10-22_15-37-44.jpg" alt=""><figcaption><p>Basic nmap version+script scanning</p></figcaption></figure>
 
+And it's a lot more complex than other tool ncat, which we can use for port-scanning purposes too
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>basic netcat port check/scan</p></figcaption></figure>
+
 ## CheatSheet
 
 | Option             | Description                                                         |
